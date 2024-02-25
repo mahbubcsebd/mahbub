@@ -10,11 +10,11 @@ const Contact = () => {
         firstName: '',
         lastName: '',
         email: '',
-        phone: '',
+        subject: '',
         message: '',
     });
 
-    const { firstName, lastName, email, phone, message } = form;
+    const { firstName, lastName, email, subject, message } = form;
 
     const changeHandler = (e: any) => {
         setForm({ ...form, [e.target.name]: e.target.value });
@@ -110,10 +110,10 @@ const Contact = () => {
                                     <div className="col-span-12">
                                         <input
                                             type="cell"
-                                            name="phone"
-                                            id="phone"
-                                            placeholder="youmail@domain.com"
-                                            value={phone}
+                                            name="subject"
+                                            id="subject"
+                                            placeholder="Subject"
+                                            value={subject}
                                             onChange={changeHandler}
                                             className="px-[14px] py-[10px] bg-[#111] border border-[#E7E8EC] placeholder-[#CFD1D9] focus:outline-none focus:bg-[#111] focus:border-primary-main focus:ring-sky-500 block w-full rounded-lg sm:text-sm focus:ring-1"
                                         />

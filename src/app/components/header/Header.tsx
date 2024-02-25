@@ -16,11 +16,11 @@ const Header = () => {
                             <Link href="/">{l('title')}</Link>
                         </div>
                         <div className="menu">
-                            <ul className="flex items-center gap-4">
+                            <ul className="flex items-center gap-5">
                                 {navLinks.map((navLink) => (
                                     <li key={navLink}>
                                         <Link
-                                            className="font-normal text-lg text-primary-main capitalize "
+                                            className="font-semibold text-lg text-primary-main capitalize "
                                             href={t(`${navLink}.href`)}
                                         >
                                             {t(`${navLink}.title`)}

@@ -8,7 +8,7 @@ const Skills = () => {
         <div>
             <div className="skills-area py-20 relative">
                 <Image
-                    className="absolute w-full h-full left-0 top-0 z-10 object-cover"
+                    className="absolute w-full h-full left-0 top-0 -z-10 object-cover"
                     src={heroPattern}
                     alt="pattern image"
                 />
