@@ -1,0 +1,31 @@
+@import url('https://fonts.googleapis.com/css2?family=Hind+Siliguri:wght@300;400;500;600;700&display=swap');
+@import url('https://fonts.googleapis.com/css2?family=Ubuntu:wght@300;400;500;700&display=swap');
+@import url('https://fonts.googleapis.com/css2?family=Urbanist:wght@300;400;500;600;700;800;900&display=swap');
+
+@tailwind base;
+@tailwind components;
+@tailwind utilities;
+
+.gradient {
+    background: var(
+        --GD,
+        linear-gradient(91deg, #00bc93 -11.84%, #6735c8 109.89%)
+    );
+    background-clip: text;
+    -webkit-background-clip: text;
+    -webkit-text-fill-color: transparent;
+}
+
+.hero-section {
+    background-image: url('../../assets/images/hero-bg.png');
+}
+
+.love-to-do-title {
+    background: var(
+        --GD-3,
+        linear-gradient(193deg, #fff -26.63%, rgba(134, 134, 134, 0.2) 133.13%)
+    );
+    background-clip: text;
+    -webkit-background-clip: text;
+    -webkit-text-fill-color: transparent;
+}

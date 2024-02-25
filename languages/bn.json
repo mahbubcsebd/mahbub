@@ -1,0 +1,36 @@
+{
+    "Language": {
+        "lang": "বাংলা",
+        "langCode": "bn"
+    },
+    "Logo": {
+        "title": "মাহবুব"
+    },
+    "Header": {
+        "home": {
+            "id": 1,
+            "title": "হোম",
+            "href": "home"
+        },
+        "about": {
+            "id": 2,
+            "title": "আমার সম্পর্কে",
+            "href": "about"
+        },
+        "portfolio": {
+            "id": 3,
+            "title": "পোর্টফোলিও",
+            "href": "portfolio"
+        },
+        "blog": {
+            "id": 4,
+            "title": "ব্লগ",
+            "href": "blog"
+        },
+        "contact": {
+            "id": 5,
+            "title": "যোগাযোগ",
+            "href": "contact"
+        }
+    }
+}
